@@ -5,16 +5,114 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="484eb0c0-4bac-4cf9-b8c1-8135ec1f106a" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw1Checkboxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/e2e.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_auto_common_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dev_failsafe_failsafe_3_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_60_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_60_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_kqueue_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_60_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_60_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_16_0_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_16_0_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_semconv_1_16_0_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_ous_jtoml_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_netty_utils_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chromium_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v85_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_http_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_8_2022_17_37_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_8_2022_17_37__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Homework1Checkboxes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UpdatedDropdown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumIntro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayListDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ArrayListDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ArraysFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysForIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ArraysForIfElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DataTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DropdownCheckboxAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DropdownCheckboxAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hw1Checkboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Hw1Checkboxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locators2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Locators2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MethodsDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MethodsDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MethodsDef2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MethodsDef2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SeleniumIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StaticDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/StaticDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/StringDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/e2e.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/e2e.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayListDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArraysFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArraysForIfElse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DropdownCheckboxAssert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hw1Checkboxes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Locators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Locators2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MethodsDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MethodsDef2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumIntro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StaticDropDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/e2e.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,8 +127,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/Locators2.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/SeleniumIntro.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/Locators2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/SeleniumIntro.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,43 +144,50 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/JimmyFloyd/Desktop/SeleniumTraining/SeleniumIntro",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Hw1Checkboxes">
     <configuration name="DropdownCheckboxAssert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DropdownCheckboxAssert" />
+      <option name="MAIN_CLASS_NAME" value="pages.DropdownCheckboxAssert" />
       <module name="SeleniumIntro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Hw1Checkboxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hw1Checkboxes" />
+      <option name="MAIN_CLASS_NAME" value="pages.Hw1Checkboxes" />
       <module name="SeleniumIntro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Locators2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Locators2" />
+    <configuration name="SeleniumIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.SeleniumIntro" />
       <module name="SeleniumIntro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="StaticDropDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticDropDown" />
+      <option name="MAIN_CLASS_NAME" value="pages.StaticDropDown" />
       <module name="SeleniumIntro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="e2e" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e2e" />
+      <option name="MAIN_CLASS_NAME" value="pages.e2e" />
       <module name="SeleniumIntro" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,9 +197,9 @@
       <list>
         <item itemvalue="Application.Hw1Checkboxes" />
         <item itemvalue="Application.e2e" />
-        <item itemvalue="Application.DropdownCheckboxAssert" />
+        <item itemvalue="Application.SeleniumIntro" />
         <item itemvalue="Application.StaticDropDown" />
-        <item itemvalue="Application.Locators2" />
+        <item itemvalue="Application.DropdownCheckboxAssert" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +211,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660916726575</updated>
+      <workItem from="1669016171927" duration="5649000" />
+      <workItem from="1673246763614" duration="3586000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1661172088258</created>
@@ -124,6 +231,9 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -139,5 +249,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
